@@ -1,0 +1,6 @@
+<launch>
+  <!-- Launch the controller + ukf node -->
+  <node name="slipping_controller" pkg="tiago_slipping_controller" type="complete_controller.py" output="screen" />
+</launch>
+
+
